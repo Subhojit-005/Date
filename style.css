@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: skyblue; /* Changed to sky blue */
+}
+
+.container {
+  text-align: center;
+}
+
+.header_text {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  position: relative;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn#noButton {
+  position: absolute;
+}
